@@ -396,7 +396,8 @@ public abstract class Request<T> implements Comparable<Request<T>> {
      *
      * @throws AuthFailureError in the event of auth failure
      */
-    protected Map<String, String> getParams() throws AuthFailureError {
+    protected Map<String, String> getParams()
+    {
         return null;
     }
 
