@@ -35,7 +35,7 @@ android {
 
     useLibrary  'org.apache.http.legacy'
     defaultConfig {
-        minSdkVersion = 8
+        minSdkVersion = 14
     }
 }
 
