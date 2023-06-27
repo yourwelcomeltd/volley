@@ -31,11 +31,10 @@ repositories {
 
 android {
     compileSdkVersion 26
-    buildToolsVersion = '28.0.3'
 
     useLibrary  'org.apache.http.legacy'
     defaultConfig {
-        minSdkVersion = 14
+        minSdkVersion 14
     }
 }
 
