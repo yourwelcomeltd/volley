@@ -21,7 +21,7 @@ project.ext.version = '1.0.0'
 project.ext.pomDesc = 'Volley Android library'
 
 task sourcesJar(type: Jar) {
-    classifier = 'sources'
+    // classifier = 'sources'
     from android.sourceSets.main.java.srcDirs
 }
 
@@ -31,7 +31,7 @@ task javadoc(type: Javadoc) {
 }
 
 task javadocJar(type: Jar, dependsOn: javadoc) {
-    classifier = 'javadoc'
+    // classifier = 'javadoc'
     from javadoc.destinationDir
 }
 
